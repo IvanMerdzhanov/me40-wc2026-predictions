@@ -1,0 +1,19 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Claude Code internals
+.claude/
+
+# Local database (never commit real data)
+db/local.sqlite
+db/local.sqlite-shm
+db/local.sqlite-wal
+
+# PHP sessions
+storage/sessions/sess_*
+
+# OS
+.DS_Store
+Thumbs.db
